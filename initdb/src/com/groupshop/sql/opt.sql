@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Opt ( id integer,name TEXT,code TEXT,password TEXT,auth TEXT,remark TEXT,flag TEXT );

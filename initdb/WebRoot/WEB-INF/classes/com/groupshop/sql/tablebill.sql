@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Tablebill ( id integer,billno integer,mac_id TEXT,tableid integer,seatid integer,remark TEXT );

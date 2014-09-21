@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Billitemstatus ( id integer,statusname TEXT );

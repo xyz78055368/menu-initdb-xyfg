@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Seat ( id integer,tab_id integer,seat_bh TEXT,seat_name TEXT,state int,seat_remark TEXT ,flag integer);

@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Dishinpage ( id integer,name TEXT,dishid integer,pageid integer ,flag integer);

@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Communication ( id integer identity(1,1) not null,url TEXT,status integer );

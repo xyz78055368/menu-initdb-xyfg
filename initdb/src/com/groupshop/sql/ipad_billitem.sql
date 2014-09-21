@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Ipad_billitem ( billno TEXT,status integer,uid TEXT,show TEXT,item_id TEXT,item_discount NUMERIC,tableid TEXT,item_pric NUMERIC,ordertime TEXT,item_name TEXT,item_remark TEXT,itemcount integer,item_amount NUMERIC,item_total NUMERIC,item_spec TEXT,opt TEXT,communi TEXT,userid TEXT,item_num integer,kitchen TEXT,count integer,waiter TEXT,macid TEXT );

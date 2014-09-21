@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS canclereason ( id integer,reason TEXT,remark TEXT,flag integer);

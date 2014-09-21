@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Obj ( id integer,name TEXT,pic TEXT,txt TEXT,obj_x integer,obj_y integer,obj_wid integer,obj_hgt integer,obj_font TEXT,obj_size integer,obj_color integer,obj_align integer,obj_collocate integer,obj_enter integer,page integer,ranking integer,tag1 integer,tag2 integer, remark TEXT,compent integer ,flag integer);

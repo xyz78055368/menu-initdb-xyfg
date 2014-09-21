@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Dtablecate ( id integer,cate TEXT,cateno TEXT,remark TEXT ,flag integer);

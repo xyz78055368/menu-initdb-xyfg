@@ -1,0 +1,1 @@
+Create Table IF NOT EXISTS Model (Id integer,Mode_No integer,Mode_Type integer,Mode_X integer,Mode_Y integer,Mode_Wid integer,Mode_Hgt integer,Mode_Txt text,Mode_Pic text,Mode_Align integer,Mode_Txt_Size integer,Mode_Txt_Color integer,Flag integer);

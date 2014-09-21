@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Method ( id integer,method TEXT,dishid integer,meprice NUMERIC,mecaption TEXT,remark TEXT,flag integer );

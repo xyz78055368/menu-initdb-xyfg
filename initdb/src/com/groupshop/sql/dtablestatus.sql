@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Dtablestatus ( id integer,status TEXT ,flag integer);

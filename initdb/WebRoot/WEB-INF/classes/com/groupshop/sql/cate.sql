@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Cate ( id integer,catename TEXT,catepic TEXT,catelocate integer,cateuppercate integer,remark integer,flag integer ,direct integer);

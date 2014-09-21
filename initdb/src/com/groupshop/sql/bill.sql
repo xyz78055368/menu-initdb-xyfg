@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Bill ( id integer,billno integer,mac_id TEXT,total numeric,amount NUMERIC,remark text,starttime text,shift text,opt int,dinningpeople integer );

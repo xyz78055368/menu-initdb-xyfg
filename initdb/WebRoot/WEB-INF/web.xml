@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <listener>
+  <listener-class>com.groupshop.text.text</listener-class>
+ </listener>
+ <servlet>
+  <servlet-name>XFireServlet</servlet-name>
+  <servlet-class>org.codehaus.xfire.transport.http.XFireConfigurableServlet</servlet-class>
+  <load-on-startup>0</load-on-startup>
+ </servlet>
+ <servlet>
+  <servlet-name>GetSoldOut</servlet-name>
+  <servlet-class>com.groupshop.servlet.GetSoldOut</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetSqliteDb</servlet-name>
+  <servlet-class>com.groupshop.servlet.GetSqliteDb</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMovNames</servlet-name>
+    <servlet-class>com.groupshop.servlet.GetMovNames</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownMove</servlet-name>
+    <servlet-class>com.groupshop.servlet.DownMove</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrintReceipt</servlet-name>
+    <servlet-class>com.groupshop.servlet.PrintReceipt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownPic</servlet-name>
+    <servlet-class>com.groupshop.servlet.DownPic</servlet-class>
+  </servlet>
+
+
+
+
+ <servlet-mapping>
+  <servlet-name>XFireServlet</servlet-name>
+  <url-pattern>/services/*</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetSoldOut</servlet-name>
+  <url-pattern>/servlet/GetSoldOut</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetSqliteDb</servlet-name>
+  <url-pattern>/GetSqliteDb</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMovNames</servlet-name>
+    <url-pattern>/GetMovNames</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownMove</servlet-name>
+    <url-pattern>/DownMove</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrintReceipt</servlet-name>
+    <url-pattern>/PrintReceipt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownPic</servlet-name>
+    <url-pattern>/DownPic</url-pattern>
+  </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>

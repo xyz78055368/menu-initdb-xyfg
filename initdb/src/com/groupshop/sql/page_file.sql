@@ -1,0 +1,1 @@
+create TABLE if not EXISTS page_file ( id integer not null primary key AUTOINCREMENT UNIQUE ,page integer,filename text,direct integer,flag integer);

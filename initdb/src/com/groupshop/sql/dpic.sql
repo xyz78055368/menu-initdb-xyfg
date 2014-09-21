@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Dpic ( id integer,picname TEXT,time TEXT,flag integer );

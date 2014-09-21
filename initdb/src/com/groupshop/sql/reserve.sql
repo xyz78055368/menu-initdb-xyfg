@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS reserve (id integer,tableid integer,reservetime text,guestname text,guestnum integer,flag integer);

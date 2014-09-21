@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS Transtable ( ipadbh TEXT,zwbh TEXT,zwmc TEXT );

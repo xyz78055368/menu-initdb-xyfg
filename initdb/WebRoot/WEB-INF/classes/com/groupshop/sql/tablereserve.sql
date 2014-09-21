@@ -1,0 +1,1 @@
+create TABLE IF NOT EXISTS tablereserve (id integer,reserveid integer,tableid integer,seatid integer);
